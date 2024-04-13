@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="operations.css">
+</head>
+<script src="operations.js"></script>
+
+<body>
+    <center>
+        <form>
+            <h1>Arithmetic Operaction</h1>
+            <label for="num1">Enter Your First Number :</label><br>
+            <input type="number" id="num1" required><br><br>
+            <!-- <label class="n1" style="display: none;">Please Enter Number</label> -->
+            <select id="operation">
+                <option id="add" value="Addition">Addition [+]</option>
+                <option id="sub" value="Subtraction">Subtraction [-]</option>
+                <option id="mul" value="Multiplication">Multiplication [*]</option>
+                <option id="div" value="Divition">Divition [/]</option>
+                <option id="mod" value="Module">Module [%]</option>
+            </select><br><br>
+            <label for="num1">Enter Your Second Number :</label><br>
+            <input type="number" id="num2" required><br><br>
+            <button type="button" onclick="calculation(event)">Calculate</button>
+            <button type="reset">Reset</button><br>
+            <p id="result"></p>
+        </form>
+    </center>
+</body>
+
+</html>
