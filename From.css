@@ -1,0 +1,40 @@
+.body{
+    background-image: linear-gradient(rgba(6, 159, 235, 0.828),rgb(141, 203, 224),white);
+    font-size: 25px;
+    font-family: "Roboto Slab", serif;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 15px;
+}
+.head{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+    height: 150px;
+    font-size: 50px;
+    padding-top: 70px;
+    padding-left: 140px;
+    color: rgb(25, 77, 154);
+}
+input,
+select{
+    font-size: 25px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.Time{
+    margin-left: 25px;
+}
+.check1{
+    margin-left: 32px;
+}
+.check2{
+    margin-left: 33px;
+}
+button{
+    font-size: 25px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
